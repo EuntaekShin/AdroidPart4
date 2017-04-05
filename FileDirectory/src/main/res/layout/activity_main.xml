@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp">
+
+    <TextView
+        android:id="@+id/txt_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Data Management To Use FILES"
+        android:textColor="@color/colorAccent"
+        android:gravity="center"/>
+
+    <EditText
+        android:id="@+id/et01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"/>
+
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FILE TEXT SAVE"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/colorPrimary"/>
+    <TextView
+        android:id="@+id/txtIn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginBottom="10dp"
+        />
+
+    <Button
+        android:id="@+id/btnDisplay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FILE Data 가져오기"/>
+    <Button
+        android:id="@+id/btnDel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="데이터 삭제"/>
+
+
+</LinearLayout>

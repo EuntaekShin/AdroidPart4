@@ -1,0 +1,33 @@
+<person>
+    <student>
+        <name>홍길동</name>
+        <age>20</age>
+        <address>광주</address>
+    </student>
+
+    <student>
+        <name>신은택</name>
+        <age>20</age>
+        <address>성남</address>
+    </student>
+
+    <student>
+        <name>임꺽정</name>
+        <age>120</age>
+        <address>대구</address>
+    </student>
+
+    <student>
+        <name>김유리</name>
+        <age>120</age>
+        <address>대구</address>
+    </student>
+
+    <student>
+        <name>랄랄라</name>
+        <age>120</age>
+        <address>대구</address>
+    </student>
+
+
+</person>

@@ -1,0 +1,1 @@
+include ':FileDirectory', ':fileresource', ':datamangebypreference', ':tokenparsing', ':xmlparsing', ':databasesqllite', ':databasehelperclass', ':corsuradapter'

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Android_Use1.iml" filepath="$PROJECT_DIR$/Android_Use1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FileDirectory/FileDirectory.iml" filepath="$PROJECT_DIR$/FileDirectory/FileDirectory.iml" />
+      <module fileurl="file://$PROJECT_DIR$/corsuradapter/corsuradapter.iml" filepath="$PROJECT_DIR$/corsuradapter/corsuradapter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/databasehelperclass/databasehelperclass.iml" filepath="$PROJECT_DIR$/databasehelperclass/databasehelperclass.iml" />
+      <module fileurl="file://$PROJECT_DIR$/databasesqllite/databasesqllite.iml" filepath="$PROJECT_DIR$/databasesqllite/databasesqllite.iml" />
+      <module fileurl="file://$PROJECT_DIR$/datamangebypreference/datamangebypreference.iml" filepath="$PROJECT_DIR$/datamangebypreference/datamangebypreference.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fileresource/fileresource.iml" filepath="$PROJECT_DIR$/fileresource/fileresource.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tokenparsing/tokenparsing.iml" filepath="$PROJECT_DIR$/tokenparsing/tokenparsing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xmlparsing/xmlparsing.iml" filepath="$PROJECT_DIR$/xmlparsing/xmlparsing.iml" />
+    </modules>
+  </component>
+</project>

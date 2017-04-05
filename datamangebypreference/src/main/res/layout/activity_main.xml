@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.datamangebypreference.MainActivity">
+
+    <TextView
+        android:id="@+id/texttitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Perference DataManage"
+        android:textSize="20dp"
+        android:textColor="@color/colorAccent"
+        android:gravity="center"
+        android:layout_marginBottom="20dp" />
+    <TextView
+        android:id="@+id/idText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/texttitle"
+        android:text="Put Your ID"
+        android:gravity="center"
+        android:layout_marginBottom="10dp"
+        android:textSize="16dp"
+        android:textStyle="bold"/>
+    <EditText
+        android:id="@+id/idEt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/idText"
+        android:layout_centerHorizontal="true"
+        android:ems= "10"
+        android:layout_marginBottom="10dp">
+        <requestFocus/>
+    </EditText>
+
+    <TextView
+        android:id="@+id/pwText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idEt"
+        android:text="Put Your Password"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="10dp"
+        android:textSize="16dp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/pwEt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/idEt"
+        android:layout_centerHorizontal="true"
+        android:ems= "10"
+        android:layout_marginTop="10dp"/>
+
+    <CheckBox
+        android:id="@+id/autoCb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pwEt"
+        android:layout_centerHorizontal="true"
+        android:text="Auto Log in"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:textSize="20dp"/>
+
+
+
+
+</RelativeLayout>
